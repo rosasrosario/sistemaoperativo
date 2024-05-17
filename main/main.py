@@ -24,7 +24,7 @@ quantum = 3
 # Comprobamos si el script se está ejecutando como el programa principal
 if __name__ == "__main__":
     # Creamos una instancia de Memoria con tamaño 15
-    memoria = Memoria(15)
+    memoria = Memoria(20)
     
     # Asignamos memoria a cada uno de los procesos
     for proceso in procesos:
